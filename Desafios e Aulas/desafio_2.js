@@ -11,6 +11,7 @@ const alunos = [
 Considere que a média mínima para aprovação é 7.
 */
 
+console.log(`Questão 1- Média de notas e filtro de aprovados`);
 const alunos = [
   { nome: "Ana", notas: [8, 7, 9] },
   { nome: "Bruno", notas: [5, 6, 5] },
@@ -29,6 +30,8 @@ const alunosAprovados = alunos
 console.log(alunosAprovados);
 
 
+
+
 /*Questão 2 — Catálogo de filmes com busca e ordenação
 Contexto
 Você recebeu um catálogo de filmes. Cada filme possui título, ano e gênero.
@@ -40,6 +43,7 @@ const filmes = [
   { titulo: "Divertida Mente", ano: 2015, genero: "animação" },
 ];*/
 
+console.log(`Questão 2-Catálogo de filmes com busca e ordenação`);
 const filmes = [
   { titulo: "O Senhor dos Anéis", ano: 2001, genero: "fantasia" },
   { titulo: "Matrix", ano: 1999, genero: "ficção" },
@@ -62,6 +66,8 @@ function buscarFilmes(genero, criterio) {
 }
 
 console.log(buscarFilmes("ficção", "ano"));
+
+
  
 
 
