@@ -242,6 +242,15 @@ function Product(name, sto, ram, price, qty, category){
   this.category = category;
 }
 
+const p1 = new Product('iPhone', 256, 16, 5000, 10, 'Celular');
+const p2 = new Product('iPad', 512, 16, 8000, 20, 'Tablet');
+const p3 = new Product('Macbook', 1024, 24, 15000, 30, 'Notebook');
+const p4 = new Product('iPhone Pro Max', 256, 16, 7000, 15, 'Celular');
+const p5 = new Product('iPad Pro', 512, 16, 10000, 25, 'Tablet');
+const p6 = new Product('Macbook Pro', 1024, 24, 25000, 35, 'Notebook');
+
+const estoque = [p1, p2, p3, p4, p5, p6];
+console.log(estoque)
 
 
 
