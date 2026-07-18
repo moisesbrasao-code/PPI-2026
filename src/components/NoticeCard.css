@@ -27,9 +27,18 @@
     font-style: italic;
 }
 
+.notice-actions {
+    display: flex;
+    gap: 0.5rem;
+}
 .notice-actions button {
     background-color: var(--primary);
     color: #ccc;
     padding: 0.25rem 2rem;
     border-radius: 0.5rem;
+}
+
+.notice-actions .details {
+    background-color: navy;
+    color: navajowhite;
 }
