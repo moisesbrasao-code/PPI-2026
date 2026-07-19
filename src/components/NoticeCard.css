@@ -30,8 +30,8 @@
 
 
 .notice-actions button {
-    background-color: var(--primary);
-    color: #ccc;
+    background-color: red;
+    color: black;
     padding: 0.25rem 2rem;
     border-radius: 0.5rem;
 }

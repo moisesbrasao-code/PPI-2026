@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./NoticeCard.css";
 
 function NoticeCard({ notice, onToggleFeatured, onDeleteNotice }) {
@@ -18,8 +19,8 @@ function NoticeCard({ notice, onToggleFeatured, onDeleteNotice }) {
       {showDetails && (
         <p>
           {notice.id === 1
-            ? "A Secitex (Semana de Ciência, Tecnologia e Extensão do IFRN) é um evento que reúne estudantes, servidores e a comunidade para promover a integração através de pesquisas, inovações, apresentações científicas, oficinas e atividades culturais."
-            : "O laboratório de manutenção do Instituto Federal do Rio Grande do Norte (IFRN) - Campus Macau é um espaço essencial para o suporte técnico, combinando atividades práticas de ensino e o reparo de equipamentos da instituição."}
+            ? " A Semana de Ciência, Tecnologia e Extensão (Secitex) é o maior evento acadêmico-científico e cultural do Instituto Federal do Rio Grande do Norte (IFRN) Realizada a cada dois anos, a Secitex reúne estudantes, servidores e a comunidade externa em um espaço de integração e troca de saberes, promovendo atividades que valorizam o ensino, a pesquisa, a extensão e a inovação. Com uma programação diversificada, o evento inclui apresentações de trabalhos científicos, oficinas, minicursos, palestras, mostras tecnológicas, atividades culturais e muito mais.A Secitex é também um momento para destacar o protagonismo estudantil e fortalecer o vínculo entre o IFRN e a sociedade, evidenciando o impacto social, científico e cultural das ações desenvolvidas pelo Instituto. Além de acompanhar os temas da Semana Nacional de Ciência e Tecnologia, a Secitex busca inspirar criatividade, colaboração e desenvolvimento sustentável, conectando pessoas, ideias e futuros possíveis.."
+            : "A rotina de Manutenção nos Laboratórios de Informática do IFRN funciona em duas frentes: o aprendizado dos alunos e o cuidado com as máquinas do próprio instituto. Os estudantes de tecnologia aprendem na prática a consertar computadores, formatar sistemas e organizar redes dentro desses espaços.Por ter dezenas de salas com computadores espalhadas por seus vários campi, o IFRN mantém uma estrutura rígida de preservação. Isso envolve desde a limpeza preventiva dos equipamentos até projetos sociais que recuperam computadores antigos da instituição para doar à comunidade."}
         </p>
       )}
 
